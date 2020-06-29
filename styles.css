@@ -1,9 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #contact{
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+header{
+    margin-bottom: 40px;
 }
 
 body{
     background-color: gold;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 56px;
 }
 
-  
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
