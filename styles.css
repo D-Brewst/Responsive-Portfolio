@@ -8,6 +8,11 @@
     margin-top: 40px;
 }
 
+#pic{
+    height: 350px;
+    width: 100%;
+}
+
 header{
     margin-bottom: 40px;
 }
@@ -16,7 +21,7 @@ body{
     background-color: gold;
     min-height: 100vh;
     position: relative;
-    padding-bottom: 56px;
+    padding-bottom: 80px;
 }
 
 .footer{
@@ -26,4 +31,25 @@ body{
     background-color: black;
     color: white;
     text-align: center;
+}
+
+#aboutMe{
+    background-color: white;
+    padding: 20px;
+    margin: 40px auto;
+    width: 90%;
+}
+
+#text{
+    float: left;
+}
+
+#toprow{
+    margin-bottom: 10px;
+}
+
+.portfolio{
+    margin: 0px auto 20px auto;
+    width: 90%;
+    padding: 20px;
 }
