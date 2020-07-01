@@ -20,6 +20,7 @@ header{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Min-height set to 100% of the viewport and position set to relative in order to position footer */
 body{
     background-color: gold;
     min-height: 100vh;
@@ -27,6 +28,7 @@ body{
     padding-bottom: 80px;
 }
 
+/* Footer's position is absolute, relative to the body, to make sure that it stays at the bottom of each page. */
 .footer{
     position: absolute;
     bottom: 0;
